@@ -6,7 +6,7 @@
 .siimple-head-container{
     height: 545px;
     width: 100%;
-    background-image: url(./images/suns.jpg);
+    background-image: url(../git-siimple/images/suns.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -82,6 +82,7 @@
 }
 .notify-me button:hover{
     background-color: #f78036;
+    cursor: pointer;
 }
 .siimple-in-container{
     padding: 40px;
@@ -136,16 +137,90 @@
 
 /* part-3 */
 .why-container{
-    height: 650px;
+    height: 600px;
     width: 100%;
     background-color: #fff7f2;
 }
 .why-flex{
     display: flex;
     justify-content: space-evenly;
+    padding: 50px;
 }
 .img-1{
-    height: 460px;
-    width: 300px;
+    height: 500px;
+    width: 400px;
     background-color: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #f78036;
+    border: 4px solid #fff;
+    position: relative;
+    margin: -30px 0px 0px 170px;
+}
+.icon i{
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+    position: absolute;
+    margin: 12px ;
+}
+.img-1 h2{
+    text-align: center;
+    padding: 10px;
+    color: #743e1d;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.img-1 p{
+    font-size: 16px;
+    color: #5e5e5e;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+}
+/* hover */
+.img-1:hover .icon{
+    background-color: #fff;
+}
+.img-1:hover .icon i{
+    color: #f78036;
+}
+.img-1 h2:hover{
+    color: #f78036;
+    cursor: pointer;
+}
+
+/* part-4 */
+/* faq */
+.faq-header{
+    padding: 30px;
+    text-align: center;
+}
+.faq-header h1{
+    font-size: 32px;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    color: #444444;
+}
+.faq-scroll{
+    padding: 40px;
+}
+.faq{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    color: #343a40;
+    font-family: "Open Sans", sans-serif;
+}
+.faq i{
+    text-decoration: none;
+    font-size: 25px;
+}
+.faq:hover{
+    color: #f78036;
+    cursor: pointer;
 }
