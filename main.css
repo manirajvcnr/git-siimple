@@ -1,6 +1,19 @@
 /* full-page-container */
 .full-page-container{
     margin: auto;
+    width: 1500px;
+}
+/* media query */
+ /* @media screen and(min-width: 767px) {
+    .siimple-head-container{
+        width: 752px;
+    }    
+}
+@media screen(min-width: 992px) {
+    .siimple-head-container{
+        width: 976px;
+    }
+     */
 }
 /* siimple header */
 .siimple-head-container{
@@ -9,12 +22,12 @@
     background-image: url(../git-siimple/images/suns.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 
 }
 .siimple-navigation{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
 }
 .siimple-logo a{
     color: #fff;
@@ -68,19 +81,19 @@
     outline: 0px;
     border: none;
 }
+.notify-me{
+    margin-top: 30px;
+}
 .notify-me button{
     text-align: center;
     height: 40px;
     width: 150px;
-    padding: 12px;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
-    display: inline-block;
     border-radius: 50px;
     transition: 0.5s;
-    margin: 20px 0px 0px 655px;
     border: none;
     color: #fff;
     background: #fd680e;
@@ -95,15 +108,18 @@
 }
 
 /* part-2 */
+.about-container{
+    width: 100%;
+    padding: 30px;
+}
 .about-flex{
     display: flex; 
-    padding: 40px; 
 }
 .about-left{
-    width: 45%;
+     width: 50%; 
 }
 .about-right{
-    width: 55%;
+    width: 50%;
 }
 .about-right h2{
     color: #222;
@@ -142,14 +158,14 @@
 
 /* part-3 */
 .why-container{
-    height: 600px;
+    height: 550px;
     width: 100%;
     background-color: #fff7f2;
+    padding: 20px;
 }
 .why-flex{
     display: flex;
     justify-content: space-evenly;
-    padding: 50px;
 }
 .img-1{
     height: 500px;
@@ -201,6 +217,10 @@
 
 /* part-4 */
 /* faq */
+.faq-container{
+    width: 100%;
+    height: 600px;
+}
 .faq-header{
     padding: 30px;
     text-align: center;
@@ -234,6 +254,7 @@
 .contact-container{
     height: 500px;
     background-color: #fff7f2;
+    width: 100%;
 }
 .contact-header h1{
     text-align: center;
@@ -341,6 +362,7 @@
 .page-footer-container{
  height: 100px;
  background: #2f1708; 
+ width: 100%;
 }
 .page-footer-container p a{
     text-decoration: none;
